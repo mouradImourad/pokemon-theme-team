@@ -1,0 +1,32 @@
+.body-container{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+
+}
+
+.container{
+    object-fit: contain;
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+
+}
+
+.container img{
+
+    width: 100%;
+    height: 100%
+    
+}
+
+button{
+
+margin: 30px;
+padding: 10px;
+color: rgb(232, 17, 17);
+background-color: rgb(33, 18, 193);
+text-transform: uppercase;
+}
